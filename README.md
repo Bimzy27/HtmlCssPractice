@@ -1,12 +1,11 @@
 # HTML/CSS Practice Project
 
-This project is designed to help you practice your HTML and CSS skills by recreating a webpage based on a provided screenshot.
+This project exists as a tool for me to practise HTML/CSS. I have takes screenshots of old website, and am attempting to recreate them using HTML/CSS
+The sources for these screenshots come from teh following websites: https://web.archive.org/ https://www.webdesignmuseum.org/
 
-# Getting Started
+# Completed Tests
 
-Open up any of the test.html files in a browser to view the implementation, compared to the original screenshot
+The below links show the comparison of the HTML/CSS I've writen, in contrast to the screenshots i've taken of old webpages.
 
-[Open test1.html](bimzy27.github.io/HtmlCssPractice/src/test1.html)
-
-Example test:
-![Screenshot](screenshots/ReadmeExample.JPG)
+[Test 1 - Google Beta]([bimzy27.github.io/HtmlCssPractice/src/test1.html](https://bimzy27.github.io/HtmlCssPractice/src/test1.html))
+[Test 2 - Google]([bimzy27.github.io/HtmlCssPractice/src/test1.html](https://bimzy27.github.io/HtmlCssPractice/src/test2.html))
