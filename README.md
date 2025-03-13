@@ -5,5 +5,8 @@ This project is designed to help you practice your HTML and CSS skills by recrea
 # Getting Started
 
 Open up any of the test.html files in a browser to view the implementation, compared to the original screenshot
+
+[Open test1.html](src/test1.html)
+
 Example test:
 ![Screenshot](screenshots/ReadmeExample.JPG)
