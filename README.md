@@ -6,7 +6,7 @@ This project is designed to help you practice your HTML and CSS skills by recrea
 
 Open up any of the test.html files in a browser to view the implementation, compared to the original screenshot
 
-[Open test1.html](src/test1.html)
+[Open test1.html](bimzy27.github.io/HtmlCssPractice/src/test1.html)
 
 Example test:
 ![Screenshot](screenshots/ReadmeExample.JPG)
