@@ -7,5 +7,5 @@ The sources for these screenshots come from teh following websites: https://web.
 
 The below links show the comparison of the HTML/CSS I've writen, in contrast to the screenshots i've taken of old webpages.
 
-[Test 1 - Google Beta]([bimzy27.github.io/HtmlCssPractice/src/test1.html](https://bimzy27.github.io/HtmlCssPractice/src/test1.html))
-[Test 2 - Google]([bimzy27.github.io/HtmlCssPractice/src/test1.html](https://bimzy27.github.io/HtmlCssPractice/src/test2.html))
+[Test 1 - Google Beta](https://bimzy27.github.io/HtmlCssPractice/src/test1.html)
+[Test 2 - Google](https://bimzy27.github.io/HtmlCssPractice/src/test2.html)
