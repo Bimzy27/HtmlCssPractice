@@ -1,0 +1,67 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+    width: 50%;
+}
+
+.divTitle {
+    grid-column: 1 / -1;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    grid-column: 1 / -1;
+    background-color: #eeeeee;
+    padding-top: 4px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.div2 {
+    grid-column: 1 / 2;
+    background-color: #7de5da;
+    padding-top: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div3 {
+    grid-column: 2 / 3;
+    background-color: #70cbc2;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div4 {
+    grid-column: 3 / 4;
+    background-color: #62b3aa;
+    padding: 2px;
+    text-align: center;
+}
+
+.divFooter {
+    grid-column: 1 / -1;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: small;
+}
+
+.emailInput {
+    margin-left: 10px;
+}
+
+.searchInput {
+    width: 260px;
+}
+
+.subscribeButton {
+    margin-right: 10px;
+}
