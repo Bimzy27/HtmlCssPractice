@@ -10,3 +10,5 @@ The below links show the comparison of the HTML/CSS I've writen, in contrast to 
 [Test 1 - Google Beta](https://bimzy27.github.io/HtmlCssPractice/src/test1.html)
 
 [Test 2 - Google](https://bimzy27.github.io/HtmlCssPractice/src/test2.html)
+
+[Test 3 - Netflix Old](https://bimzy27.github.io/HtmlCssPractice/src/test3.html)

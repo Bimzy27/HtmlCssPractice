@@ -1,2 +1,67 @@
 .container {
+    display: grid;
+    grid-template-columns: 580px;
+    grid-template-rows: auto 20px auto;
+    gap: 10px;
+}
+
+.containerItem {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.middleBar {
+    background-color: black;
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 80px;
+    gap: 0px;
+}
+
+.divTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9px;
+    margin-bottom: 15px;
+}
+
+.divTopBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.divTopItems {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.divTopItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.redLine {
+    background-color: #8d3335;
+    height: 1px;
+    width: 100%;
+}
+
+.discImage {
+    height: 100%;
 }
