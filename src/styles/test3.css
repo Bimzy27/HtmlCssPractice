@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .container {
     display: grid;
     grid-template-columns: 580px;
@@ -36,24 +40,36 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .divTopItems {
-    width: 100%;
+    width: 100% - 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: repeat(4, 23%);
+    grid-template-rows: 100px 1fr;
+    column-gap: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    justify-content: center;
+    align-items: start;
 }
 
 .divTopItem {
+    grid-row: 2/3;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2px;
+}
+
+.divTopItemImg {
+    grid-row: 1/2;
+    max-height: 80px;
+    margin-bottom: 30px;
+    justify-self: center;
 }
 
 .redLine {
@@ -64,4 +80,9 @@
 
 .discImage {
     height: 100%;
+}
+
+.fontSmallCenterAlign {
+    font-size: small;
+    text-align: center;
 }
