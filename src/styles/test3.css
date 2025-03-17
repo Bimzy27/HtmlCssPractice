@@ -6,12 +6,7 @@ body {
     display: grid;
     grid-template-columns: 580px;
     grid-template-rows: auto 20px auto;
-    gap: 10px;
-}
-
-.containerItem {
-    padding: 20px;
-    border: 1px solid black;
+    gap: 5px;
 }
 
 .middleBar {
@@ -38,10 +33,25 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    align-items: start;
+    margin: 15px 50px 20px 40px;
 }
+
+.divTopPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.divTopPriceInternal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
 
 .divTopItems {
     width: 100% - 30px;
@@ -85,4 +95,57 @@ body {
 .fontSmallCenterAlign {
     font-size: small;
     text-align: center;
+}
+
+.divBottomBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divBottomReady {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    padding-left: 15px;
+}
+
+.divBottomCookie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.divBottomItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    row-gap: 24px;
+    column-gap: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bottomItem1 {
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.bottomItem2 {
+    text-align: center;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.bottomItem3 {
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
 }
