@@ -3,4 +3,47 @@ body {
 }
 
 .container {
+    width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divHeader {
+    width: 100%;
+}
+
+.divHeaderBar {
+    width: 100%;
+    background-color: #d5e4f7;
+    padding: 5px;
+}
+
+.divHeaderLinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 5px;
+}
+
+.smallText {
+    font-size: smaller;
+}
+
+.imgTitle {
+    width: 200px;
+}
+
+.mainInput {
+    width: 365px;
+    height: 25px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.linkUpload {
+    font-size: medium;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
